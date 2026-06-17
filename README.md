@@ -1,7 +1,7 @@
 # ESP32 Bluetooth Controlled Car
 
 A simple Bluetooth-controlled robot car project using ESP32, Arduino IDE, and a motor driver module such as L298N.
-
+![ESP32 Bluetooth Car](esp32-bluetooth-car/images/Car RC.jpg)
 ## Overview
 
 This project allows you to control a small robot car using Bluetooth commands sent from a mobile phone. The ESP32 receives Bluetooth serial commands and controls two DC motors through a motor driver.
@@ -35,6 +35,7 @@ This project allows you to control a small robot car using Bluetooth commands se
 | GPIO 17   | IN4              | Motor B direction |
 | GPIO 22   | ENB              | Motor B enable    |
 
+![ESP32 Bluetooth Car](images/car.jpg)
 ## Bluetooth Device Name
 
 After uploading the code, the ESP32 Bluetooth name will be:
